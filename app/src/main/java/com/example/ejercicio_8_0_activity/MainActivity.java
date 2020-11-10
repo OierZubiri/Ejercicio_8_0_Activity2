@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 	public void lanzarAcercaDe(View view){
 		Intent i = new Intent(this, AcercaDeActivity.class);
 		startActivity(i);
+		System.out.println("Prueba");
 	}
 
 
